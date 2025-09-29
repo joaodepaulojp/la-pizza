@@ -62,7 +62,7 @@ const ItemsCard = () => {
           <CardContent>
             <p className="text-[16px]">{pizza.description}</p>
             <p className="text-[32px] font-semibold mt-4">{pizza.price}</p>
-            <Button className="rounded-[25px] p-[10px] w-[206px] h-[41px] font-semibold mt-6">
+            <Button className="rounded-[25px] p-[10px] w-[206px] h-[41px] font-semibold mt-6 cursor-pointer">
               COMPRAR AGORA
             </Button>
           </CardContent>
