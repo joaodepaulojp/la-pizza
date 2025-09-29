@@ -34,7 +34,7 @@ const ItemsCard = () => {
     },
   ];
   return (
-    <div className="w-[1237px] h-[360px] flex items-center md:flex-row gap-x-[40px] flex-col gap-y-[80px]">
+    <div className="grid grid-cols-1 gap-[100px] items-center md:grid-cols-2 lg:grid-cols-4 lg:gap-[39px]">
       {pizzas.map((pizza) => (
         <Card
           key={pizza.id}

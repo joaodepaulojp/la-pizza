@@ -19,7 +19,7 @@ export default function Home() {
           fill
           className="object-cover absolute"
         />
-        <div className=" w-[1237px] h-[1732px] lg:h-[746px] flex flex-col">
+        <div className=" w-full h-[1732px] items-center lg:h-[746px]  flex flex-col md:h-[1000px] md:items-center">
           <h1 className="text-[40px] font-semibold mb-[50px] mt-[50px] lg:mt-[144px] text-center">
             Mais vendidas
           </h1>
@@ -29,7 +29,7 @@ export default function Home() {
         </div>
       </div>
       <div className="flex flex-col items-center lg:flex-row mb-16">
-        <div className="relative w-[327px] h-[400px] lg:w-[488px] lg:h-[500px] lg:mx-[136px] mt-16">
+        <div className="relative w-[327px] h-[400px] lg:w-[488px] lg:h-[500px] lg:mx-[136px] mt-16 md:w-[704px] md:h-[400px]">
           <Image
             src="/sobre-image.svg"
             alt="sobre"
@@ -37,7 +37,7 @@ export default function Home() {
             className="object-cover rounded-xl"
           />
         </div>
-        <div className="w-[327px] h-[392px] mt-16 lg:w-[592px] lg:h-[284px]">
+        <div className="w-[327px] h-[392px] mt-16 lg:w-[592px] lg:h-[284px] md:w-[704px] md:h-[257px]">
           <h2 className="text-4xl font-semibold">
             Sobre a La P<span className="text-yellow-400">i</span>
             <span className="text-red-600">z</span>
